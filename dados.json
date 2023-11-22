@@ -1,0 +1,20 @@
+{
+    "users": [
+      {
+        "email": "gabriel@hapmais.com.br",
+        "name": "Gabriel",
+        "lastName": "Machado",
+        "username": "Gabriel",
+        "password": "1234",
+        "id": 1
+      },
+      {
+        "email": "jlucaz@hapmais.com.br",
+        "name": "João",
+        "lastName": "Lucas",
+        "username": "jlucaz",
+        "password": "1234",
+        "id": 2
+      }  
+    ]
+  }
