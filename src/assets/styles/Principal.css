@@ -21,12 +21,12 @@ main {
 .slideshow img {
   min-width: 100%;
 }
-.slideshow .c-apresentacao-texto {
+.slideshow .slideshow-text {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.slideshow .c-apresentacao-texto h2 {
+.slideshow .slideshow-text h2 {
   text-align: center;
   width: 40%;
   color: var(--cor-secundaria);
@@ -34,7 +34,7 @@ main {
   font-family: "Kdam Thmor Pro", sans-serif;
 }
 
-.slideshow .c-apresentacao-texto p {
+.slideshow .slideshow-text p {
   text-align: left;
   width: 60%;
 }
