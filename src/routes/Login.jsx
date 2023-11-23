@@ -1,5 +1,4 @@
 import "../assets/styles/Login.css";
-import hapicon from "../assets/hap+icon.svg";
 import { useState} from "react";
 
 //página de login
