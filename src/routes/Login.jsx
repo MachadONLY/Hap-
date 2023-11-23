@@ -72,14 +72,14 @@ function Login() {
         <fieldset>
           <legend>LOGIN</legend>
           <label>
-            Nome de usuário:
+            USERNAME
             <input type="text" name="username" value={username} onChange={handleChange} required placeholder="Digite seu Nome..."/>
           </label>
           <label>
-            Senha:
+            SENHA
             <input type="password" name="password" value={password} onChange={handleChange} required placeholder="Digite sua Senha..."/>
           </label>
-          <button type="submit">Entrar</button>
+          <button type="submit">SIGN IN</button>
         </fieldset>
       </form>
     </section>
