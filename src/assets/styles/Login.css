@@ -92,22 +92,23 @@ button {
   margin-top: 30px;
   border: 0;
   border-radius: 100px;
-  background-image: radial-gradient(circle at -20.44% 56.16%, #ff6444 0, #fb5241 25%, #f23c3c 50%, #e81d38 75%, #e00036 100%);
+  background-color: #e42454;
   color: #ffffff;
   font-weight: Bold;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   width: 100%;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #db6565;
-  box-shadow: 0 0 20px #713333;
+  background-color: #94ac6c;
+  box-shadow: 0 0 20px #94ac6c;
   transform: scale(1.1);
 }
 
 button:active {
-  background-color: #df4343;
+  background-color: #94ac6c;
   transition: all 0.25s;
   -webkit-transition: all 0.25s;
   box-shadow: none;
