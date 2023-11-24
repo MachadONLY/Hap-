@@ -8,6 +8,9 @@ export default function Rodape() {
           <div className="footer-address">
             <p>Av. Paulista, 1106 - 4º andar - São Paulo - SP</p>
           </div>
+          <div className="footer-topic">
+            <p>Global Solution - Engenharia de Software</p>
+          </div>
           <div className="footer-team">
             <p>Gabriel Teixeira Machado - RM551570</p>
             <p>João Lucas Yudi Redi Handa - RM98458</p>
