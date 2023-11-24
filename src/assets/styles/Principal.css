@@ -98,32 +98,48 @@ main {
 .benefits {
   grid-area: vantagens;
 }
+
 .benefits #benefits-title {
   text-align: center;
   color: var(--cor-secundaria);
   font-size: 1.8rem;
 }
-.benefits .benefits-container {
+
+.benefits-container {
   display: flex;
-  gap: 3rem;
+  gap: 6rem;
   margin: 2rem;
-  padding: 2rem 0;
-}
-.benefits .benefits-container .benefits-content {
-  display: flex;
-  font-size: 14px;
-  line-height: 22px;
-  
-}
-.benefits .benefits-container .benefits-content img {
-  max-width: 100%;
-  width: 200px;
 }
 
-.benefits-text {
+.benefits-content {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
   background-color: #fff;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); 
+  width: 440px;
+  height: 320px;
+  padding: 20px;
 }
+
+.benefits-content img {
+  max-width: 100%;
+  margin-bottom: 12px;
+  margin-top: 10px; /* Adiciona espaçamento entre a imagem e o título */
+}
+
+.benefits-content h3 {
+  margin-bottom: 15px; /* Adiciona espaçamento entre o título e o parágrafo */
+}
+
+.benefits-content p {
+  margin-bottom: 20px; /* Adiciona espaçamento entre o parágrafo e o próximo bloco */
+}
+
+
+
 
 @media screen and (max-width: 1230px) {
   main {

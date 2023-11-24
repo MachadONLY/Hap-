@@ -2,7 +2,7 @@ import "../assets/styles/Principal.css"
 import mainimg from "../assets/mainimg.svg"
 import watch from '../assets/watch.svg'
 import easy from '../assets/easy.svg'
-import conversa from '../assets/efficiency.svg'
+import efficiency from '../assets/efficiency.svg'
 
 
 export default function Principal() {
@@ -10,14 +10,14 @@ export default function Principal() {
     <>
     <main>
         <section className="slideshow">
-            <img src={mainimg} alt="Imagem principal de agendamento" />
+            <img src={mainimg} alt="consulta online" />
             <div className="slideshow-text">
                 <h2>HAP +</h2>
                 <p>Desenvolver uma plataforma de telemedicina para a Hapvida, visando facilitar o acesso a consultas médicas, melhorar o gerenciamento de medicamentos, promover a gestão eficiente de vacinas e proporcionar uma experiência abrangente de saúde para os pacientes.</p>
             </div>
         </section>
         <section className="cards">
-            <div className="solucao">
+            <div className="first-card">
                 <h3>SOLUÇÃO</h3>
                 <p>A plataforma de telemedicina desenvolvida apresenta uma solução inovadora e abrangente para otimizar a experiência dos usuários no cuidado com a saúde. Integrando agendamento de consultas, consultas virtuais, gerenciamento de medicamentos e vacinas, além de notificações personalizadas, a plataforma visa simplificar e aprimorar a jornada do paciente. Com um foco especial na eficiência, a solução oferece um check-in rápido no hospital, permitindo que os usuários agendem suas consultas online e realizem um check-in presencial de forma ágil, usando a tecnologia NFC. Essa abordagem inovadora redefine a interação entre paciente e sistema de saúde, proporcionando conveniência, eficácia e um cuidado mais personalizado. 
                 </p>
@@ -36,7 +36,7 @@ export default function Principal() {
             <div className="benefits-container">
             <div className="benefits-content">
                 <div>
-                    <img src={watch} alt="" />
+                    <img src={watch} alt="icon relogio" />
                 </div>
                 <div>
                     <h3>AGILIDADE NA JORNADA DO PACIENTE</h3>
@@ -45,7 +45,7 @@ export default function Principal() {
             </div>
             <div className="benefits-content">
                 <div>
-                    <img src={easy} alt="" />
+                    <img src={easy} alt="icon easy" />
                 </div>
                 <div>
                     <h3>GESTÃO DE SAÚDE SIMPLIFICADA</h3>
@@ -54,7 +54,7 @@ export default function Principal() {
             </div>
             <div className="benefits-content">
                 <div>
-                    <img src={conversa} alt="" />
+                    <img src={efficiency} alt="icon eficiencia" />
                 </div>
                 <div>
                     <h3>EFICIÊNCIA OPERACIONAL</h3>

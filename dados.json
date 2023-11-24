@@ -5,7 +5,7 @@
         "name": "Gabriel",
         "lastName": "Machado",
         "username": "Gabriel",
-        "password": "1234",
+        "password": "12345",
         "id": 1
       },
       {
@@ -13,7 +13,7 @@
         "name": "João",
         "lastName": "Lucas",
         "username": "jlucaz",
-        "password": "1234",
+        "password": "12345",
         "id": 2
       }  
     ]
