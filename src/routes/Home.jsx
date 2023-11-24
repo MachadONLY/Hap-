@@ -1,11 +1,11 @@
-import "../assets/styles/Principal.css"
+import "../scss/Home.scss";
 import mainimg from "../assets/mainimg.svg"
 import watch from '../assets/watch.svg'
 import easy from '../assets/easy.svg'
 import efficiency from '../assets/efficiency.svg'
 
 
-export default function Principal() {
+export default function Home() {
   return (
     <>
     <main>

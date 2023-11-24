@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f4fcfc;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.login-text h1,
+.login-text p {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section {
+  padding: 0 12%;
+  margin-bottom: 100px;
+}
+
+fieldset {
+  border: none;
+  line-height: 50px;
+  padding: 20px;
+}
+
+legend {
+  color: #253545;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  text-align: start;
+}
+
+form {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-bottom: 15rem;
+  background-color: #fff;
+
+  input {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 22px;
+    transition: 0.3s;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    border: none;
+
+    &::placeholder {
+      font-size: smaller;
+    }
+  }
+
+  label {
+    color: #253545;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+button {
+  padding: 16px 30px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #e42454;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #94ac6c;
+    box-shadow: 0 0 20px #94ac6c;
+    transform: scale(1.1);
+  }
+
+  &:active {
+    background-color: #94ac6c;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+}

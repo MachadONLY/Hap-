@@ -1,14 +1,14 @@
-import "../assets/styles/Login.css";
+import "../scss/Login.scss";
 import { useState} from "react";
 
-//página de login
+
 function Login() {
 
-  //variáveis dos inputs
+ 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    //capturando os valores dos inputs
+    
     const handleChange = async(event) => {
       const { name, value } = event.target;
       if (name === 'username') {
@@ -29,11 +29,11 @@ function Login() {
       const response = await fetch("http://localhost:5000/users");
       if (response.ok) {
         const users = await response.json();
-        //console.log(users);
+       
         for (let i = 0; i < users.length; i++) {
           const usuario = users[i];
 
-          //validando
+    
           if (usuario.username == username && usuario.password == password) {
             user = usuario;
             break;

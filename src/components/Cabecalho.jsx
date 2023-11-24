@@ -1,4 +1,4 @@
-import "../assets/styles/Cabecalho.css";
+import "../scss/Cabecalho.scss";
 import profile from "../assets/profile.svg";
 import { useState, useEffect } from "react";
 
