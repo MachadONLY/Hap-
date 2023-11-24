@@ -114,3 +114,20 @@ button {
     transform: scale(0.98);
   }
 }
+
+.partner {
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 0 3%;
+  }
+
+  form {
+    font-size: 16px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+}

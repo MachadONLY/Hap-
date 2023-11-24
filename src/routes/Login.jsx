@@ -1,5 +1,6 @@
 import "../scss/Login.scss";
 import { useState} from "react";
+import partner from "../assets/partner.svg";
 
 
 function Login() {
@@ -81,6 +82,9 @@ function Login() {
           </label>
           <button type="submit">SIGN IN</button>
         </fieldset>
+        <div className="partner">
+          <img src={partner} alt="icone das empresas" />
+        </div>
       </form>
     </section>
   );
