@@ -57,7 +57,7 @@ main {
   background-color: #fff;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
   text-align: center;
 }
 
@@ -70,7 +70,7 @@ main {
 }
 
 .cards div {
-  margin-bottom: 20px; /* Adicionando espaçamento entre as divs */
+  margin-bottom: 20px; 
   padding: 1rem;
   width: 100%;
   font-size: 14px;
@@ -78,7 +78,7 @@ main {
   background-color: #fff;
   height: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adicionando uma box-shadow */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
 
 .cards div h3 {
@@ -95,29 +95,25 @@ main {
 }
 
 
-
-
-
-
 .benefits {
   grid-area: vantagens;
 }
-.benefits #vantagens-titulo {
+.benefits #benefits-title {
   text-align: center;
   color: var(--cor-secundaria);
   font-size: 1.8rem;
 }
-.benefits .c-vantagens-div {
+.benefits .benefits-container {
   display: flex;
   gap: 2rem;
   margin: 2rem;
   padding: 2rem 0;
 }
-.benefits .c-vantagens-div .c-vantagens-div-interna {
+.benefits .benefits-container .benefits-content {
   display: flex;
   font-size: 14px;
 }
-.benefits .c-vantagens-div .c-vantagens-div-interna img {
+.benefits .benefits-container .benefits-content img {
   max-width: 70%;
   min-width: 40%;
 }

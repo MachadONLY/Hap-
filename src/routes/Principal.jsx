@@ -32,9 +32,9 @@ export default function Principal() {
             </div>
         </section>
         <section className="benefits">
-            <h3 id="vantagens-titulo">VANTAGENS</h3>
-            <div className="c-vantagens-div">
-            <div className="c-vantagens-div-interna">
+            <h3 id="benefits-title">VANTAGENS</h3>
+            <div className="benefits-container">
+            <div className="benefits-content">
                 <div>
                     <img src={relogio} alt="" />
                 </div>
@@ -43,7 +43,7 @@ export default function Principal() {
                     <p>Com nosso aplicativo, o usuário pode economizar tempo, uma vez que não precisa fazer diversas ligações e pesquisas por clínicas para poder marcar um agendamento. Todas as informações e opções disponíveis estão centralizadas e unificadas na Ponto +.</p>
                 </div>
             </div>
-            <div className="c-vantagens-div-interna">
+            <div className="benefits-content">
                 <div>
                     <img src={video} alt="" />
                 </div>
@@ -52,7 +52,7 @@ export default function Principal() {
                     <p>Com o intuito de promover maior acessibilidade, principalmente a idosos, será disponibilizado um vídeo de tutorial de como utilizar nossa aplicação. Este estará disponível a qualquer momento para quem precisar de ajuda.</p>
                 </div>
             </div>
-            <div className="c-vantagens-div-interna">
+            <div className="benefits-content">
                 <div>
                     <img src={conversa} alt="" />
                 </div>
