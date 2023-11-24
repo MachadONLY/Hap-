@@ -105,17 +105,24 @@ main {
 }
 .benefits .benefits-container {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   margin: 2rem;
   padding: 2rem 0;
 }
 .benefits .benefits-container .benefits-content {
   display: flex;
   font-size: 14px;
+  line-height: 22px;
+  
 }
 .benefits .benefits-container .benefits-content img {
-  max-width: 70%;
-  min-width: 40%;
+  max-width: 100%;
+  width: 200px;
+}
+
+.benefits-text {
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); 
 }
 
 @media screen and (max-width: 1230px) {

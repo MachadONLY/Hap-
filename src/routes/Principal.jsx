@@ -1,8 +1,8 @@
 import "../assets/styles/Principal.css"
 import mainimg from "../assets/mainimg.svg"
-import relogio from '../assets/img/time.png'
-import video from '../assets/img/video.png'
-import conversa from '../assets/img/talk.png'
+import watch from '../assets/watch.svg'
+import easy from '../assets/easy.svg'
+import conversa from '../assets/efficiency.svg'
 
 
 export default function Principal() {
@@ -36,20 +36,20 @@ export default function Principal() {
             <div className="benefits-container">
             <div className="benefits-content">
                 <div>
-                    <img src={relogio} alt="" />
+                    <img src={watch} alt="" />
                 </div>
                 <div>
-                    <h3>ECONOMIA DE TEMPO</h3>
-                    <p>Com nosso aplicativo, o usuário pode economizar tempo, uma vez que não precisa fazer diversas ligações e pesquisas por clínicas para poder marcar um agendamento. Todas as informações e opções disponíveis estão centralizadas e unificadas na Ponto +.</p>
+                    <h3>AGILIDADE NA JORNADA DO PACIENTE</h3>
+                    <p>A plataforma integra agendamento eficiente, consultas virtuais, e check-in inovador com tecnologia NFC, proporcionando uma experiência fluida e rápida para os usuários.</p>
                 </div>
             </div>
             <div className="benefits-content">
                 <div>
-                    <img src={video} alt="" />
+                    <img src={easy} alt="" />
                 </div>
                 <div>
-                    <h3>TUTORIAL EM VÍDEO</h3>
-                    <p>Com o intuito de promover maior acessibilidade, principalmente a idosos, será disponibilizado um vídeo de tutorial de como utilizar nossa aplicação. Este estará disponível a qualquer momento para quem precisar de ajuda.</p>
+                    <h3>GESTÃO DE SAÚDE SIMPLIFICADA</h3>
+                    <p>Com funcionalidades como lembretes automáticos, gerenciamento de medicamentos e registro de vacinas, a plataforma facilita a gestão proativa da saúde, promovendo a adesão ao tratamento e a prevenção de condições.</p>
                 </div>
             </div>
             <div className="benefits-content">
@@ -57,8 +57,8 @@ export default function Principal() {
                     <img src={conversa} alt="" />
                 </div>
                 <div>
-                    <h3>COMUNICAÇÃO FACILITADA</h3>
-                    <p>Além de facilitar o agendamento, buscamos facilitar a comunicação entre as clínicas e os usuários. Nosso aplicativo contará com chats para que os futuros pacientes e os locais de exame possam conversar e esclarecer dúvidas.</p>
+                    <h3>EFICIÊNCIA OPERACIONAL</h3>
+                    <p>A combinação de agendamento online, consultas virtuais e check-in ágil não apenas melhora a experiência do paciente, mas também otimiza os processos internos, tornando a prestação de cuidados mais eficiente e centrada no usuário.</p>
                 </div>
             </div>
             </div>
