@@ -10,10 +10,10 @@ Usuários criados para login :
 
 <h3>Usuário 1</h3>
 <p>Nome de usuário: "Gabriel"</p>
-<p>Senha: "1234"</p>
+<p>Senha: "12345"</p>
 
 <h3>Usuário 2</h3>
 <p>Nome de usuário: "jlucaz"</p>
-<p>Senha: "1234"</p>
+<p>Senha: "12345"</p>
 
 
