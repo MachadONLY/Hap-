@@ -41,6 +41,7 @@ export default function Cabecalho() {
           <nav>
             <ul>
               <h1>Hap +</h1>
+              <li>Plataforma de Telemedicina</li>
               <li>Global Solution - Engenharia de Software</li>
             </ul>
           </nav>
